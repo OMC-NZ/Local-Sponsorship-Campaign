@@ -1,295 +1,317 @@
-.opw-component .opw-content h1 {
-    font-size: 0.45rem;
-    font-weight: bolder;
-    margin-bottom: 0.4rem;
+.OPPO-Phoenix-WPX h1 {
+  font-size: 0.51rem;
+  margin-bottom: 0.4rem;
+  font-weight: bolder;
 }
 
-.opw-content-margin {
-    margin: 0 auto;
-    padding: 1.2rem 0;
-    width: 13.2rem;
-}
-
-.words-imges-parent {
-    position: relative
-}
-
-.words-imges-child {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.opw-banner img {
-    max-width: 100%;
-}
-
-.opw-video {
-    text-align: center;
-    margin: 0.5rem 0 2rem;
-}
-
-.opw-video iframe {
-    width: 60vw;
-    height: 33vw;
-}
-
-.player-content {
-    width: 211px;
-}
-
-.player-content h2 {
-    margin: 0.2rem 0;
-}
-
-.player-content p {
-    line-height: 16px;
-}
-
-.opw-content .opw-succeed-content {
-    font-weight: bolder;
-    margin-top: 0.2rem;
-}
-
-.opw-fixtures {
-    margin-top: 1.2rem;
-}
-
-.opw-content-margin-bottom {
-    margin: 0.7rem auto 0.5rem;
-    width: 13.2rem;
-}
-
-.opw-content .opw-content-info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.content-info img {
-    width: 6.25rem;
-}
-
-.content-info .content-info-words h2 {
-    margin: 0.4rem 0 0.15rem;
+.OPPO-Phoenix-WPX h2 {
     font-size: 0.25rem;
+    margin: 0.2rem 0;
     font-weight: 600;
 }
 
-.content-info .content-info-words p {
+.OPPO-Phoenix-WPX p {
     font-size: 16px;
-    margin: 0.15rem 0;
+    line-height: 24px;
+}
+
+.opw-content-margin {
+  margin: 0 auto;
+  padding: 1.2rem 0;
+  width: 13.2rem;
+}
+
+.words-imges-parent {
+  position: relative;
+}
+
+.words-imges-child {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.opw-banner img {
+  max-width: 100%;
+}
+
+.opw-video {
+  text-align: center;
+  margin: 0.5rem 0 2rem;
+}
+
+.opw-video iframe {
+  width: 60vw;
+  height: 33vw;
+}
+
+.player-content {
+  width: 211px;
+}
+
+.opw-content .opw-succeed-content {
+  font-weight: bolder;
+  margin-top: 0.2rem;
+}
+
+.opw-succeed-learn {
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.opw-succeed-learn button{
+  font-weight: 600;
+  padding: 9px 15px;
+}
+
+.opw-fixtures {
+  margin-top: 1.2rem;
+}
+
+.opw-content-margin-bottom {
+  margin: 0.7rem auto 0.5rem;
+  width: 13.2rem;
+}
+
+.opw-content .opw-content-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-info img {
+  width: 6.25rem;
+}
+
+.content-info .content-info-words p {
+  margin: 0.15rem 0;
 }
 
 .content-info-words p a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*******************************  Media  *************************************/
 @media (max-width: 1439.98px) and (min-width: 1024px) {
-    .opw-component .opw-content h1 {
-        font-size: 3.076vw;
-        margin-bottom: 2.734vw;
-    }
+    .OPPO-Phoenix-WPX h1 {
+        font-size: 0.45rem;
+        margin-bottom: 0.8rem;
+      }
+      
+      /* .OPPO-Phoenix-WPX h2 {
+          font-size: 0.25rem;
+          margin: 0.2rem 0;
+          font-weight: 600;
+      }
+      
+      .OPPO-Phoenix-WPX p {
+          font-size: 16px;
+          line-height: 24px;
+      } */
 
-    .opw-content-margin {
-        padding: 8.203vw 0;
-        width: 90.234vw;
-    }
+  .opw-content-margin {
+    padding: 8.203vw 0;
+    width: 90.234vw;
+  }
 
-    .opw-content-margin-bottom {
-        margin: 4.785vw auto 3.148vw;
-        width: 90.234vw;
-    }
+  .opw-content-margin-bottom {
+    margin: 4.785vw auto 3.148vw;
+    width: 90.234vw;
+  }
 
-    .opw-video {
-        margin: 3.148vw 0 13.672vw;
-    }
+  .opw-video {
+    margin: 3.148vw 0 13.672vw;
+  }
 
-    .player-content h2 {
-        margin: 1.367vw 0;
-    }
+  .player-content h2 {
+    margin: 1.367vw 0;
+  }
 
-    .opw-content .opw-succeed-content {
-        margin-top: 1.367vw;
-    }
+  .opw-content .opw-succeed-content {
+    margin-top: 1.367vw;
+  }
 
-    .opw-fixtures {
-        margin-top: 8.203vw;
-    }
+  .opw-fixtures {
+    margin-top: 8.203vw;
+  }
 
-    .content-info img {
-        width: 42.724vw;
-    }
+  .content-info img {
+    width: 42.724vw;
+  }
 
-    .content-info .content-info-words h2 {
-        margin: 2.734vw 0 1.025vw;
-        font-size: 1.709vw;
-    }
+  .content-info .content-info-words h2 {
+    margin: 2.734vw 0 1.025vw;
+    font-size: 1.709vw;
+  }
 
-    .content-info .content-info-words p {
-        font-size: 12px;
-        margin: 1.025vw 0;
-    }
+  .content-info .content-info-words p {
+    font-size: 12px;
+    margin: 1.025vw 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023.98px) {
-    .opw-content-margin {
-        padding: 8.14vw 0;
-        width: 89.58vw;
-    }
+  .opw-content-margin {
+    padding: 8.14vw 0;
+    width: 89.58vw;
+  }
 
-    .opw-content-margin.opw-player {
-        padding: 8.14vw 0 3.14vw;
-    }
+  .opw-content-margin.opw-player {
+    padding: 8.14vw 0 3.14vw;
+  }
 
-    .opw-component .opw-content h1 {
-        font-size: 3.05vw;
-        margin-bottom: 2.71vw;
-    }
+  .opw-component .opw-content h1 {
+    font-size: 3.05vw;
+    margin-bottom: 2.71vw;
+  }
 
-    .opw-content-margin-bottom {
-        margin: 4.75vw auto 3.13vw;
-        width: 89.58vw;
-    }
+  .opw-content-margin-bottom {
+    margin: 4.75vw auto 3.13vw;
+    width: 89.58vw;
+  }
 
-    .opw-video {
-        margin: 3.13vw 0 13.57vw;
-    }
+  .opw-video {
+    margin: 3.13vw 0 13.57vw;
+  }
 
-    .opw-content-info.opw-player {
-        flex-flow: row wrap;
-        text-align: center;
-    }
+  .opw-content-info.opw-player {
+    flex-flow: row wrap;
+    text-align: center;
+  }
 
-    .player-content {
-        flex: 0 0 50%;
-        margin-bottom: 6vw;
-    }
+  .player-content {
+    flex: 0 0 50%;
+    margin-bottom: 6vw;
+  }
 
-    .player-content h2 {
-        margin: 1.36vw 0;
-    }
+  .player-content h2 {
+    margin: 1.36vw 0;
+  }
 
-    .player-infor {
-        width: 211px;
-        margin: 0 auto;
-        text-align: initial;
-    }
+  .player-infor {
+    width: 211px;
+    margin: 0 auto;
+    text-align: initial;
+  }
 
-    .player-infor p {
-        font-size: 12px;
-    }
+  .player-infor p {
+    font-size: 12px;
+  }
 
-    .opw-content-info.opw-succeed {
-        flex-flow: row wrap;
-    }
+  .opw-content-info.opw-succeed {
+    flex-flow: row wrap;
+  }
 
-    .opw-content-info.opw-succeed .content-info {
-        flex: 0 0 50%;
-    }
+  .opw-content-info.opw-succeed .content-info {
+    flex: 0 0 50%;
+  }
 
-    .opw-succeed h1 {
-        margin-bottom: 5vw !important;
-    }
+  /* .opw-succeed h1 {
+    margin-bottom: 5vw !important;
+  } */
 
-    .opw-succeed .words-imges-child {
-        position: unset;
-        transform: none;
-    }
+  .opw-succeed .words-imges-child {
+    position: unset;
+    transform: none;
+  }
 
-    .opw-succeed-img {
-        position: relative;
-    }
+  .opw-succeed-img {
+    position: relative;
+  }
 
-    .opw-succeed-img img {
-        position: absolute;
-        top: 50%;
-        transform: translate(0, -50%);
-    }
+  .opw-succeed-img img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
 
-    .opw-content .opw-succeed-content {
-        margin-top: 1.36vw;
-    }
+  .opw-content .opw-succeed-content {
+    margin-top: 1.36vw;
+  }
 
-    .opw-fixtures {
-        margin-top: 8.14vw;
-    }
+  .opw-fixtures {
+    margin-top: 8.14vw;
+  }
 
-    .content-info img {
-        width: 42.42vw;
-    }
+  .content-info img {
+    width: 42.42vw;
+  }
 
-    .content-info .content-info-words h2 {
-        margin: 2.71vw 0 1.02vw;
-        font-size: 1.7vw;
-    }
+  .content-info .content-info-words h2 {
+    margin: 2.71vw 0 1.02vw;
+    font-size: 1.7vw;
+  }
 
-    .content-info .content-info-words p {
-        font-size: 12px;
-        margin: 0;
-    }
+  .content-info .content-info-words p {
+    font-size: 12px;
+    margin: 0;
+  }
 }
 
-@media (max-width: 767.98px) {    
-    .opw-content-margin {
-        padding: 9vw 0;
-        margin: 5vw auto;
-        width: 73vw;
-    }
-    
-    .opw-banner img {
-        max-width: 100%;
-    }
-    
-    .opw-video iframe {
-        width: 60vw;
-        height: 33vw;
-    }
+@media (max-width: 767.98px) {
+  .opw-content-margin {
+    padding: 9vw 0;
+    margin: 5vw auto;
+    width: 73vw;
+  }
 
-    .words-imges-parent, .words-imges-child {
-        position: initial;
-    }
+  .opw-banner img {
+    max-width: 100%;
+  }
 
-    .opw-content-margin.opw-player .opw-content .opw-content-info {        
-        display: flex;
-    }
+  .opw-video iframe {
+    width: 60vw;
+    height: 33vw;
+  }
 
-    .opw-content-info.opw-player {
-        flex-flow: row wrap;
-        text-align: center;
-    }
+  .words-imges-parent,
+  .words-imges-child {
+    position: initial;
+  }
 
-    .player-content {
-        flex: 0 0 50%;
-        margin-bottom: 6vw;
-    } 
+  .opw-content-margin.opw-player .opw-content .opw-content-info {
+    display: flex;
+  }
 
-    .player-infor {
-        width: 211px;
-        margin: 0 auto;
-        text-align: initial;
-    }
-    
-    .opw-content-margin-bottom {        
-        margin: 9vw auto;
-        width: 73vw;
-    }
+  .opw-content-info.opw-player {
+    flex-flow: row wrap;
+    text-align: center;
+  }
 
-    .content-info {
-        margin-top: 7vw;
-    }
+  .player-content {
+    flex: 0 0 50%;
+    margin-bottom: 6vw;
+  }
 
-    .opw-content .opw-content-info {
-        display:initial;
-        justify-content: initial;
-    }  
-    
-    .content-info img {
-        width: 100%;
-    }
-    
-    .content-info .content-info-words h2 {
-        margin: 3vw 0 1vw;
-        font-size: 24px;
-    }
+  .player-infor {
+    width: 211px;
+    margin: 0 auto;
+    text-align: initial;
+  }
+
+  .opw-content-margin-bottom {
+    margin: 9vw auto;
+    width: 73vw;
+  }
+
+  .content-info {
+    margin-top: 7vw;
+  }
+
+  .opw-succeed-learn {
+    margin-top: 5vw;
+  }
+
+  .opw-content .opw-content-info {
+    display: initial;
+    justify-content: initial;
+  }
+
+  .content-info img {
+    width: 100%;
+  }
+
+  .content-info .content-info-words h2 {
+    margin: 3vw 0 1vw;
+    font-size: 24px;
+  }
 }

@@ -15,5 +15,9 @@ $(function () {
       "style",
       "width:" + $(".content-info img").width() + "px"
     );
+    
+    if($(window).width() < 1440 || $(window).width() > 1023) {
+      $(".OPPO-Phoenix-WPX h1").css({"font-size": "0.45rem:", "margin-bottom": "0.4rem"})
+    }
   });
 });

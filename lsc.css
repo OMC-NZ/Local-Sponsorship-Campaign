@@ -49,6 +49,19 @@
   width: 211px;
 }
 
+.player-infor tr td {
+  padding: 0.05rem;
+}
+
+.player-infor tr img {
+  width: 0.5rem;
+}
+
+.player-infor tr p {
+  font-size: 0.18rem;
+  font-weight: 600;
+}
+
 .opw-content .opw-succeed-content {
   font-weight: bolder;
   margin-top: 0.2rem;

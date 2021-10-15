@@ -5,14 +5,20 @@
 }
 
 .OPPO-Phoenix-WPX h2 {
-    font-size: 0.25rem;
-    margin: 0.2rem 0;
-    font-weight: 600;
+  font-size: 0.3rem;
+  margin-top: 0.2rem;
+  font-weight: 600;
+}
+
+.OPPO-Phoenix-WPX h3 {
+  font-size: 0.2rem;
+  margin-bottom: 0.1rem;
+  font-weight: 600;
 }
 
 .OPPO-Phoenix-WPX p {
-    font-size: 16px;
-    line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .opw-content-margin {
@@ -49,8 +55,28 @@
   width: 211px;
 }
 
+.player-infor table {
+  width: 100%;
+}
+
+.player-infor table tr {  
+  border-bottom: 5px solid white;
+}
+
+.player-infor table tr:nth-child(odd) {
+  background-color: #CACAC8;
+}
+
+.player-infor table tr:nth-child(even) {
+  background-color: #EAEAEA;
+}
+
 .player-infor tr td {
   padding: 0.05rem;
+}
+
+.player-infor tr td:nth-child(2) {
+  text-align: center;
 }
 
 .player-infor tr img {
@@ -59,7 +85,6 @@
 
 .player-infor tr p {
   font-size: 0.18rem;
-  font-weight: 600;
 }
 
 .opw-content .opw-succeed-content {
@@ -72,7 +97,7 @@
   margin-top: 2vw;
 }
 
-.opw-succeed-learn button{
+.opw-succeed-learn button {
   font-weight: 600;
   padding: 9px 15px;
 }
@@ -105,21 +130,10 @@
 
 /*******************************  Media  *************************************/
 @media (max-width: 1439.98px) and (min-width: 1024px) {
-    .OPPO-Phoenix-WPX h1 {
-        font-size: 0.45rem;
-        margin-bottom: 0.8rem;
-      }
-      
-      /* .OPPO-Phoenix-WPX h2 {
-          font-size: 0.25rem;
-          margin: 0.2rem 0;
-          font-weight: 600;
-      }
-      
-      .OPPO-Phoenix-WPX p {
-          font-size: 16px;
-          line-height: 24px;
-      } */
+  .OPPO-Phoenix-WPX h1 {
+    font-size: 0.45rem;
+    margin-bottom: 0.8rem;
+  }
 
   .opw-content-margin {
     padding: 8.203vw 0;

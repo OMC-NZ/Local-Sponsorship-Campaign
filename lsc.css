@@ -377,7 +377,7 @@
   }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 723px) {
   .opw-content-info.opw-player.players-list {
     overflow-y: auto;
     flex-flow: unset;
@@ -386,6 +386,7 @@
   .player-content {
     margin-left: auto;
     margin-right: 30px;
+    flex: none;
   }
 }
 

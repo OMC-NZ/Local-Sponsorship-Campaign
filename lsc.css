@@ -2,19 +2,20 @@
   text-align: center;
   background-color: #121212;
 }
-.OPPO-Phoenix-WPX h1 {
+
+.OPPO-Phoenix-WPX h2 {
   font-size: 0.51rem;
   margin-bottom: 0.4rem;
   font-weight: bolder;
 }
 
-.OPPO-Phoenix-WPX h2 {
+.OPPO-Phoenix-WPX h3 {
   font-size: 0.3rem;
   margin-top: 0.2rem;
   font-weight: 600;
 }
 
-.OPPO-Phoenix-WPX h3 {
+.OPPO-Phoenix-WPX h4 {
   font-size: 0.2rem;
   margin-bottom: 0.1rem;
   font-weight: 600;
@@ -149,7 +150,7 @@
 } */
 
 @media (max-width: 1439.98px) and (min-width: 1024px) {
-  .OPPO-Phoenix-WPX h1 {
+  .OPPO-Phoenix-WPX h2 {
     font-size: 0.45rem;
     margin-bottom: 0.8rem;
   }
@@ -168,7 +169,7 @@
     margin: 3.148vw 0 13.672vw;
   }
 
-  .player-content h2 {
+  .player-content h3 {
     margin: 1.367vw 0;
   }
 
@@ -184,7 +185,7 @@
     width: 42.724vw;
   }
 
-  .content-info .content-info-words h2 {
+  .content-info .content-info-words h3 {
     margin: 2.734vw 0 1.025vw;
     font-size: 1.709vw;
   }
@@ -205,7 +206,7 @@
     padding: 8.14vw 0 3.14vw;
   }
 
-  .opw-component .opw-content h1 {
+  .opw-component .opw-content h2 {
     font-size: 3.05vw;
     margin-bottom: 2.71vw;
   }
@@ -229,7 +230,7 @@
     margin-bottom: 6vw;
   }
 
-  .player-content h2 {
+  .player-content h3 {
     margin: 1.36vw 0;
   }
 
@@ -245,13 +246,14 @@
 
   .opw-content-info.opw-succeed {
     flex-flow: row wrap;
+    padding: 0;
   }
 
   .opw-content-info.opw-succeed .content-info {
     flex: 0 0 50%;
   }
 
-  /* .opw-succeed h1 {
+  /* .opw-succeed h2 {
     margin-bottom: 5vw !important;
   } */
 
@@ -282,7 +284,7 @@
     width: 42.42vw;
   }
 
-  .content-info .content-info-words h2 {
+  .content-info .content-info-words h3 {
     margin: 2.71vw 0 1.02vw;
     font-size: 1.7vw;
   }
@@ -316,8 +318,8 @@
   .words-imges-parent,
   .words-imges-child {
     position: unset;
-    top:0;
-    transform:translate(0,0)
+    top: 0;
+    transform: translate(0, 0)
   }
 
   .opw-content-margin.opw-player .opw-content .opw-content-info {
@@ -346,7 +348,7 @@
   }
 
   .content-info {
-    margin-top: 7vw;
+    margin-top: 40px;
   }
 
   .opw-succeed-learn {
@@ -359,28 +361,71 @@
 
   .opw-content .opw-content-info {
     display: initial;
-    justify-content: initial;
   }
 
   .content-info img {
     width: 100%;
   }
 
-  .content-info .content-info-words h2 {
+  .content-info .content-info-words h3 {
     margin: 3vw 0 1vw;
     font-size: 24px;
+  }
+
+  .opw-content-info.opw-succeed {
+    padding: 0;
   }
 }
 
 @media (max-width: 578px) {
+  .opw-content-info.opw-player.players-list {
+    overflow-y: auto;
+    flex-flow: unset;
+  }
+
   .player-content {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 30px;
   }
 }
 
 @media (max-width: 360px) {
-  .OPPO-Phoenix-WPX h1 {
-    font-size: 0.33rem;
+  .OPPO-Phoenix-WPX h2 {
+    font-size: 46px;
+    line-height: 55px;
+  }
+
+  .OPPO-Phoenix-WPX h3 {
+    font-size: 28px;
+    line-height: 42px;
+    margin-top: 0.2rem;
+    font-weight: 600;
+  }
+
+  .opw-video {
+    margin: 0.2rem 0;
+  }
+
+  .opw-video iframe {
+    position: absolute;
+    left: 0;
+    height: 75vw;
+  }
+
+  .opw-content.opw-video-content {
+    padding-top: 240px;
+  }
+
+  .content-info img.content-info-imgs {
+    position: absolute;
+    left: 0;
+  }
+
+  .content-info-words.content-info-words-news {
+    padding-top: 200px;
+  }
+
+  .opw-content-info .content-info h3 {
+    margin-bottom: 20px;
   }
 }

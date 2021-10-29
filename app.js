@@ -1,23 +1,29 @@
 $(function () {
-  if ($(window).width() > 360) {
-    $(".opw-mobile").hide();
-    $(".opw-desktop").show();
-    $(".content-info-words p").attr(
-      "style",
-      "width:" + $(".content-info img").width() + "px"
-    );
-  } else {
-    $(".opw-desktop").hide();
-    $(".opw-opw-mobile").show();
-  }
+  bannerImg();
+  moveImg();
   $(window).resize(function () {
-    $(".content-info-words p").attr(
-      "style",
-      "width:" + $(".content-info img").width() + "px"
-    );
-
-    if($(window).width() < 1440 || $(window).width() > 1023) {
-      $(".OPPO-Phoenix-WPX h1").css({"font-size": "0.45rem:", "margin-bottom": "0.4rem"})
-    }
+    bannerImg();
+    moveImg();
   });
+
+  /*****************Funciton**********************/
+  function bannerImg() {
+    if ($(window).width() > 360) {
+      //Desktop
+      $("img.opw-main-banner").attr("src", "imgs/WPX-Banner.jpg");
+    } else {
+      //Mobile
+      $("img.opw-main-banner").attr("src", "imgs/WPX-Banner-mobile.jpg");
+    }
+  }
+
+  function moveImg() {
+    if($(window).width() > 768) {
+      $("#desktop-br").show();
+      $("#desktop-4b0b").show();
+    } else {
+      $("#desktop-br").hide();
+      $("#desktop-4b0b").appendTo("#anchor-p").attr("style","margin: 0.2rem 0;");
+    }
+  }
 });
